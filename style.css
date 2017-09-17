@@ -14,6 +14,14 @@ a {
   font-weight: 500;
 }
 
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
 a:hover {
   color: #283593;
 }
@@ -33,9 +41,9 @@ header {
 
 header h1 {
   float: left;
-  font-weight: 500;
+  font-weight: 700;
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
 }
 /* Index page styles */
 
@@ -126,20 +134,76 @@ header h1 {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 40px 20px 40px 20px;
 }
 
-.study-wrapper h1 {
+h1.study-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+h2.study-title {
   font-size: 24px;
-  padding-bottom:20px;
+  color: #4F4F4F;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
-.study-wrapper p {
-padding-bottom:20px;
+.study-part p {
+  padding-top: 10px;
 }
 
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+h1.section-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .5;
+  padding: 10px 0px 10px 0px;
+}
+
+.study-part {
+  padding-top: 20px;
+}
+
+.study-part img {
+  max-width: 300px;
+  text-align: center;
+}
+
+.drawing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.subsection-title {
+  font-weight: 700;
+}
+
+.full-image img {
+  max-width: 600px;
+  padding:20px 0px 20px 0px; 
+}
 /* Etc Styles */
-
 
 .etc-case-studies {
   margin-left: auto;
@@ -153,15 +217,15 @@ padding-bottom:20px;
 }
 
 .etc-case-studies img {
-  width:100%;
+  width: 100%;
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.etc-case-studies h1{
+.etc-case-studies h1 {
   padding: 20px 0px;
-	font-size: 24px;
+  font-size: 24px;
   font-weight: 300;
   width: 100%;
 }
@@ -193,6 +257,11 @@ footer {
   padding: 50px 15px 100px 15px;
 }
 
+.bottom-wrap {
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
+
 @keyframes wave {
   0% {
     transform: rotate(30deg);
@@ -203,7 +272,7 @@ footer {
 }
 
 .footer-block {
-  max-width: 600px;
+  max-width: 640px;
   display: flex;
   align-items: center;
   flex-direction: row;
