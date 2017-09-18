@@ -2,251 +2,333 @@
 /* Global Styles */
 
 body {
-  font-family: Interface, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333;
+font-family: Interface, sans-serif;
+font-size: 18px;
+line-height: 1.5;
+color: #333;
 }
 
 a {
-  text-decoration: none;
-  color: #304FFE;
-  font-weight: 500;
+text-decoration: none;
+color: #304FFE;
+font-weight: 500;
 }
 
 h1 {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
 }
 
 h2 {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
 }
 
 a:hover {
-  color: #283593;
+color: #283593;
 }
 /* Header Styles */
 
 .top-wrap {
-  border-bottom: 1px solid #333;
+border-bottom: 1px solid #333;
 }
 
 header {
-  max-width: 960px;
-  overflow: hidden;
-  padding: 30px 15px 30px 15px;
-  margin-left: auto;
-  margin-right: auto;
+max-width: 960px;
+overflow: hidden;
+padding: 30px 15px 30px 15px;
+margin-left: auto;
+margin-right: auto;
 }
 
 header h1 {
-  float: left;
-  font-weight: 700;
-  color: #333;
-  font-size: 20px;
+float: left;
+font-weight: 700;
+color: #333;
+font-size: 20px;
 }
 /* Index page styles */
 
 .hello {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 15px 60px 15px;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+padding: 60px 15px 60px 15px;
 }
 
 .hello h1 {
-  font-size: 48px;
+font-size: 48px;
 }
 
 .more {
-  padding-top: 20px;
-  font-size: 24px;
+padding-top: 20px;
+font-size: 24px;
 }
 
 .case-studies {
-  max-width: 960px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
+max-width: 960px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
 }
 
 .case-studies h1 {
-  font-weight: 500;
-  color: #333;
-  padding-top: 40px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 24px
+font-weight: 500;
+color: #333;
+padding-top: 40px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 24px
 }
 
 .case-studies p {
-  color: #333;
-  font-weight: 300;
-  padding-bottom: 10px;
-  text-align: center;
+color: #333;
+font-weight: 300;
+padding-bottom: 10px;
+text-align: center;
 }
 
 .project {
-  max-width: 450px;
-  border: 1px solid #333;
-  margin: 0px 0px 40px 0px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  transition: all .2s ease-in;
+max-width: 450px;
+border: 1px solid #333;
+margin: 0px 0px 40px 0px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+transition: all .2s ease-in;
 }
 
 .project:hover {
-  transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .temp:hover {
-  transform: scale(1);
+transform: scale(1);
 }
 
 .project img {
-  max-width: 100%;
-  height: auto;
-  text-align: center;
+max-width: 100%;
+height: auto;
+text-align: center;
 }
 /* About Page Styles */
 
 .about-me {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
-  padding: 20px;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 60px;
+padding: 20px;
 }
 
 .about-me h1 {
-  font-size: 54px;
-  padding-bottom: 20px;
+font-size: 54px;
+padding-bottom: 20px;
 }
 /* Restructuring Styles */
 
 .study-wrapper {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 20px 40px 20px;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+padding: 40px 20px 40px 20px;
 }
 
 h1.study-title {
+text-align: center;
+font-size: 32px;
+}
+
+h1.study-title::after {
+background: #2F80ED;
+display: block;
+content: '';
+height: 5px;
+margin-bottom: 20px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 40px;
+}
+
+h2.study-title {
+font-size: 24px;
+color: #4F4F4F;
+text-align: center;
+padding-bottom: 40px;
+}
+
+.study-part p {
+padding-top: 10px;
+}
+
+.container {
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.caption {
+text-align: center;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
+}
+
+h1.section-title {
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: .5;
+padding: 10px 0px 10px 0px;
+}
+
+.section-title::after {
+background: #2F80ED;
+display: block;
+content: '';
+height: 5px;
+margin-bottom: 20px;
+margin-top: 20px;
+width: 40px;
+}
+
+.study-part {
+padding-top: 20px;
+}
+
+.study-part img {
+max-width: 300px;
+text-align: center;
+}
+
+.drawing {
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+img.drawing {
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+ul {
+margin-left: 60px;
+margin-top: 20px;
+}
+
+.subsection-title {
+font-weight: 700;
+}
+
+.big-boy {
+justify-content: center;
+max-width: 960px;
+padding: 40px 0px 40px 0px;
+}
+
+.big-boy img {
+height: auto;
+width: 100%;
+object-fit: contain;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.full-image {
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+
+.full-image img {
+max-width: 600px;
+padding: 20px 0px 20px 0px;
+}
+
+.mini-image {
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+
+mini-image img {
+max-width: 300px;
+}
+/* Etc Styles */
+
+.etc-case-studies {
+margin-left: auto;
+margin-right: auto;
+max-width: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 100px;
+}
+
+.etc-case-studies img {
+width: 100%;
+height: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.etc-case-studies h1 {
+padding: 20px 0px;
+font-size: 24px;
+font-weight: 300;
+width: 100%;
+}
+
+.TOC {
+padding: 100px 20px 100px 20px;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+}
+
+.TOC h1 {
+font-size: 32px;
+}
+
+.TOC a {
+margin-top: 20px;
+font-size: 24px;
+}
+/* Pump Page Styles */
+
+h1.pump-study-title {
   text-align: center;
   font-size: 32px;
 }
 
-h2.study-title {
+h1.pump-study-title::after {
+  background: #F2C94C;
+  display: block;
+  content: '';
+  height: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+}
+
+h2.pump-study-subtitle {
   font-size: 24px;
   color: #4F4F4F;
   text-align: center;
   padding-bottom: 40px;
 }
 
-.study-part p {
-  padding-top: 10px;
-}
-
-.container {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.caption {
-  text-align: center;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 40px;
-}
-
-h1.section-title {
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .5;
-  padding: 10px 0px 10px 0px;
-}
-
-.study-part {
-  padding-top: 20px;
-}
-
-.study-part img {
-  max-width: 300px;
-  text-align: center;
-}
-
-.drawing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-ul {
-  margin-left: 60px;
-  margin-top: 20px;
-}
-
-.subsection-title {
-  font-weight: 700;
-}
-
-.full-image img {
-  max-width: 600px;
-  padding:20px 0px 20px 0px; 
-}
-/* Etc Styles */
-
-.etc-case-studies {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
-}
-
-.etc-case-studies img {
-  width: 100%;
-  height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.etc-case-studies h1 {
-  padding: 20px 0px;
-  font-size: 24px;
-  font-weight: 300;
-  width: 100%;
-}
-
-.TOC {
-  padding: 100px 20px 100px 20px;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.TOC h1 {
-  font-size: 32px;
-}
-
-.TOC a {
-  margin-top: 20px;
-  font-size: 24px;
-}
+.temp {
+padding-top:40px;}
 /* Footer Styles */
 
 footer {
@@ -256,12 +338,10 @@ footer {
   margin-right: auto;
   padding: 50px 15px 100px 15px;
 }
-
 .bottom-wrap {
   margin-top: 40px;
   border-top: 1px solid #333;
 }
-
 @keyframes wave {
   0% {
     transform: rotate(30deg);
@@ -270,7 +350,6 @@ footer {
     transform: rotate(0deg);
   }
 }
-
 .footer-block {
   max-width: 640px;
   display: flex;
@@ -279,7 +358,6 @@ footer {
   justify-content: flex-start;
   padding: 10px 20px 10px 0px;
 }
-
 .hand {
   animation-name: wave;
   animation-duration: 1s;
@@ -287,11 +365,9 @@ footer {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
-
 footer p {
   margin-left: 10px;
 }
-
 .emoji {
   width: 30px
 }
@@ -302,7 +378,6 @@ footer p {
     margin: 20px;
   }
 }
-
 @media (max-width: 420px) {
   header h1 {
     float: none;

@@ -26,7 +26,9 @@
     <h2 class="study-title"> Making it easy to transform data</h2>
     <p class="caption"> I led design for the life sciences group at Tamr, a small team of data scientists and engineers focused on automating and simplifying the way that life sciences companies prepare and use their data.</p>
     <section class="study-section">
-      <img src="assets/restructure-temp.png">
+      <div class=big-boy>
+        <img src="assets/base.png">
+      </div>
       <div class="container">
         <div class=study-part>
           <h1 class="section-title"> Background </h1>
@@ -50,7 +52,7 @@
         </div>
 
         <div class="study-part">
-          <h1 class="section-title"> 01. The Challenge </h1>
+          <h1 class="section-title"> The Challenge </h1>
           <p> Imagine a researcher at a life sciences company that is evaluating a new treatment. </p>
           <div class="drawing">
             <img src="assets/listen.png">
@@ -64,35 +66,95 @@
               <div class="drawing">
                 <img src="assets/entry.png">
               </div>
-              <p> The problem is that for analysis, the one row per patient format isn't right. For data collection, they want one patient per row. But for data analysis, they want to move the information stored in columns to information stored in rows.  </p>
+              <p> The problem is that for analysis, the one row per patient format isn't right. For data collection, they want one patient per row. But for data analysis, they want to move the information stored in columns to information stored in rows. </p>
               <div class="drawing">
                 <img src="assets/table1.png">
                 <img src="assets/table2.png">
               </div>
-              <p> In other words, they need a way to restructure the data. This particular transformation is called an "unpivot." We began by targeting this data transformation because, based on user interviews and obersvation, it was causing the most time wasted and frustration among people using the Tamr software. We knew we would build in more transformations, though, so the design would need to be flexible and modular; basically, our goal was to define a framework for future data transformation capabilities.  </p>
-            </div>
-            <div class="study-part">
-              <h1 class="section-title"> 02. The Process</h1>
-              <h2 class="subsection-title"> Research </h2>
-              <p> I started with questions: What is the larger context that data scientists work in at life sciences companies? What are their goals? What are there challenges? Many of our clients were already using the Tamr software to transform their data - what did they like about the experience? What frustrated them? </p>
-              <div class="drawing">
-                <img src="assets/questions.png">
-              </div>
-              <p> Then I looked for the answers: I interviewed internal data scientists, I visited some of our life sciences clients to observe their data scientists at work, and I did a competitive analysis of other data transformation tools. </p>
-              <p> Next, I shared what I found with my project team. Using our research findings, a product manager and I worked to define our longer-term end-to-end vision so the team would share a common language and set of goals for our day-to-day work. </p>
-              <div class="full-image">
-              <img src="assets/brainstorm.png">
-            </div>
+              <p> In other words, they need a way to restructure the data. This particular transformation is called an "unpivot." We began with this data transformation because, based on user interviews and obersvation, it was causing the most time wasted
+                and frustration among people using the Tamr software. We knew we would build in more transformations, though, so the design would need to be flexible and modular; basically, our goal was to define a framework for future data transformation
+                capabilities. </p>
+        </div>
+        <div class="study-part">
+          <h1 class="section-title"> Research </h1>
+          <p> I started with questions: What is the larger context that data scientists work in at life sciences companies? What are their goals? What are there challenges? Many of our clients were already using the Tamr software to transform their data -
+            what did they like about the experience? What frustrated them? </p>
+          <div class="drawing">
+            <img src="assets/question.png">
+          </div>
+          <p> Then I looked for the answers: I interviewed internal data scientists, I visited some of our life sciences clients to observe their data scientists at work, and I did a competitive analysis of other data transformation tools. </p>
+          <div class="drawing">
+            <img src="assets/search.png">
+          </div>
+          <p> Next, I shared what I found with my project team. Using our research findings, a product manager and I worked to define our longer-term end-to-end vision so the team would share a common language and set of goals for our day-to-day work. </p>
+          <div class="full-image">
+            <img src="assets/brainstorm.png">
+          </div>
+          <div class="full-image">
+            <img src="assets/sketch.jpg">
           </div>
 
         </div>
 
+        <div class="study-part">
+          <h1 class="section-title"> Concept + Create </h1>
+          <p> Once we had a solid understanding of users and their needs, I began to explore design approaches. This meant developing user flows and wireframes. I tend to use simple pen and paper at this early, generative, exploratory phase in the design
+            process. </p>
+          <div class="mini-image">
+            <img src="assets/flow_sketch.jpg">
+          </div>
+          <p> I presented my sketches and got feedback from other Tamr designers as well as from internal data scientists and others on my project team. Next, I facilitated collaborative sketching sessions with the same groups to learn more about how people
+            framed the problem and imagined different solutions.</p>
+          <div class="full-image">
+            <img src="assets/transforming.jpg">
+          </div>
 
+        </div>
+
+        <div class="study-part">
+          <h1 class="section-title"> Prototype </h1>
+          <p> This type of complex data transformation is hard to get a feel for with static screens. So I moved quickly into prototyping. So many prototypes! </p>
+        </div>
+      </div>
+      <div class="big-boy">
+        <img src="assets/prototypes.png">
       </div>
 
+      </div>
+      <div class="container">
+        <div class="study-part">
+          <h1 class="section-title"> Build + Iterate </h1>
+          <p> After about a month of prototyping, the team began to build. We wanted to get a functional version of the tool in front of people sooner rather than later so that we could really understand how people were using the tool, areas of confusion,
+            and opportunities for improvement. </p>
+          <div class="drawing">
+            <img src="assets/paired.png">
+          </div>
+          <p> I worked closely with two front-end developers. I began by sending them mockups and specs, but we quickly realized this was not the most efficient way to work; especially because we had to deliver quickly to meet client commitments. We moved
+            to a paired development / design approach. </p>
+          <p> We conducted usability testing - both in person and moderated - and used the findings to drive continued iteration.</p>
+          <p> For about a month, we continued this way - build, test, iterate. </p>
+          <div class="drawing">
+            <img src="assets/cycle.png">
+          </div>
+        </div>
+
+        <h1 class="section-title"> The Result (+ Continued iteration) </h1>
+      </div>
+      <div class="big-boy">
+        <img src="assets/drag.png">
+      </div>
+      <div class="container">
+        <p> After about four months, we released a beta version of the tool to three clients. They reported immediate improvements in their experience with the Tamr software. We had regular usability testing sessions; both remote and in person. We learned a lot from these: from small tweaks like error states for naming a new screen, microcopy improvements, and adding the ability to undo/redo transform actions to larger changes in our long-term vision for the tool. The process will continue this way as we add add more transformations to the solid foundation we created by working in a data-driven, collaborative, and iterative way.</p>
+      </div>
+      <div class="big-boy">
+        <img src="assets/form_component.gif">
+      </div>
+      <div class="big-boy">
+        <img src="assets/typeahead.png">
+      </div>
 
     </section>
-    <h2>
+
   </section>
 
 
