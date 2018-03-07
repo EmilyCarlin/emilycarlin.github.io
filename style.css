@@ -138,10 +138,13 @@ max-width:300px;}
 
 .activity img {
   text-align: Center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .activity p {
 padding-top:10px;}
+
 /* Restructuring Styles */
 
 .study-wrapper {
@@ -199,16 +202,6 @@ h1.section-title {
   font-weight: 700;
   letter-spacing: .5;
   padding: 10px 0px 10px 0px;
-}
-
-.section-title::after {
-  background: #2F80ED;
-  display: block;
-  content: '';
-  height: 5px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 40px;
 }
 
 .study-part {
