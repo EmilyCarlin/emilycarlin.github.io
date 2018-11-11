@@ -73,7 +73,7 @@ a:hover {
 
 .circle p {
   color: white;
-  font-size: 52px;
+  font-size: 36px;
   font-family: "VeronaSerial-Xbold"
 }
 
@@ -91,17 +91,35 @@ a:hover {
   font-weight: 500;
 }
 
+.hello h3 {
+  font-family: "VeronaSerial";
+  margin-top: 48px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 @media(max-width:840px) {
   .hello {
     padding: 40px;
   }
+
+  .circle p {
+    font-size: 24px;
+  }
 }
 
-@media(max-width:400px) {
+@media(max-width:500px) {
   main {
-    padding: 40px;
     margin: 24px;
     background-color: white;
     min-height: calc(100vh - 48px);
+  }
+
+  .intro {
+    margin-left: 24px;
+  }
+
+  .hello {
+    padding: 48px;
   }
 }
