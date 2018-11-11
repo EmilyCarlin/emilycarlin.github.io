@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'VeronaSerial-Bold';
+    src: url('webfonts/37FFC6_0_0.eot');
+    src: url('webfonts/37FFC6_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_0_0.woff2') format('woff2'), url('webfonts/37FFC6_0_0.woff') format('woff'), url('webfonts/37FFC6_0_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial-Heavy';
+    src: url('webfonts/37FFC6_1_0.eot');
+    src: url('webfonts/37FFC6_1_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_1_0.woff2') format('woff2'), url('webfonts/37FFC6_1_0.woff') format('woff'), url('webfonts/37FFC6_1_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial-Light';
+    src: url('webfonts/37FFC6_2_0.eot');
+    src: url('webfonts/37FFC6_2_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_2_0.woff2') format('woff2'), url('webfonts/37FFC6_2_0.woff') format('woff'), url('webfonts/37FFC6_2_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial-Medium';
+    src: url('webfonts/37FFC6_3_0.eot');
+    src: url('webfonts/37FFC6_3_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_3_0.woff2') format('woff2'), url('webfonts/37FFC6_3_0.woff') format('woff'), url('webfonts/37FFC6_3_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial';
+    src: url('webfonts/37FFC6_4_0.eot');
+    src: url('webfonts/37FFC6_4_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_4_0.woff2') format('woff2'), url('webfonts/37FFC6_4_0.woff') format('woff'), url('webfonts/37FFC6_4_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial-Xlight';
+    src: url('webfonts/37FFC6_5_0.eot');
+    src: url('webfonts/37FFC6_5_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_5_0.woff2') format('woff2'), url('webfonts/37FFC6_5_0.woff') format('woff'), url('webfonts/37FFC6_5_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VeronaSerial-Xbold';
+    src: url('webfonts/37FFC6_6_0.eot');
+    src: url('webfonts/37FFC6_6_0.eot?#iefix') format('embedded-opentype'), url('webfonts/37FFC6_6_0.woff2') format('woff2'), url('webfonts/37FFC6_6_0.woff') format('woff'), url('webfonts/37FFC6_6_0.ttf') format('truetype');
+}
