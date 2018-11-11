@@ -4,36 +4,86 @@ body {
   background-color: blue;
 }
 
-
-.wrap {
-  margin: 32px;
+main {
+  margin: 48px;
   background-color: white;
-  min-height: calc(100vh - 64px);
-  min-width: calc(100vw- 64px);
-  position: relative;
+  min-height: calc(100vh - 96px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content {
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 4px;
+  transition: border-bottom 0.1s ease-in-out;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  border-bottom: 4px solid blue;
+
+}
+
+.hello {
   max-width: 720px;
+
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 32px;
+}
+
+.circle {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  margin-right: 24px;
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.125);
+  }
+}
+
+.circle p {
+  color: white;
+  font-size: 52px;
+  font-family: "VeronaSerial-Xbold"
 }
 
 .hello h1 {
   font-size: 64px;
   font-weight: 100;
-  line-height: 1.5;
-  margin-bottom: 32px;
-  font-family: "VeronaSerial-Xbold";
+  font-family: "VeronaSerial";
 }
 
-.details {
-  background-color: white;
-  z-index: 999;
-}
-
-.details h2 {
+.hello h2 {
   font-family: "VeronaSerial";
   font-size: 20px;
   line-height: 1.5;
@@ -41,21 +91,17 @@ body {
   font-weight: 500;
 }
 
-section.background {
-  background-image: url(assets/mountain_paintings_carolyn_larsen.jpg);
-  background: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  mix-blend-mode: screen;
-  pointer-events: none;
-}
-
-@media(max-width:640px) {
+@media(max-width:840px) {
   .hello {
     padding: 40px;
+  }
+}
+
+@media(max-width:400px) {
+  main {
+    padding: 40px;
+    margin: 24px;
+    background-color: white;
+    min-height: calc(100vh - 48px);
   }
 }
