@@ -1,16 +1,18 @@
 @import url(webfonts.css);
 
 body {
-  background-color: blue;
+  background-color: #F2C94C;
 }
 
 main {
-  margin: 48px;
+  margin: 40px;
   background-color: white;
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 80px);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 20px solid #2F80ED;
+  outline: 20px solid #EB5757;
 }
 
 a {
@@ -26,8 +28,8 @@ a:visited {
 }
 
 a:hover {
-  color: blue;
-  border-bottom: 4px solid blue;
+  color: black;
+  border-bottom: 4px solid black;
 
 }
 
@@ -50,30 +52,30 @@ a:hover {
   border-radius: 100%;
   text-align: center;
   display: flex;
-  width: 120px;
-  height: 120px;
-  background-color: blue;
+  width: 80px;
+  height: 80px;
   margin-right: 24px;
-  animation-name: rotate;
-  animation-duration: 1.5s;
+  animation-name: jump;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-direction: alternate;
+  background-color: black;
 }
 
-@keyframes rotate {
+@keyframes jump {
   0% {
-    transform: scale(1);
+    transform: translateY(0px);
   }
 
   100% {
-    transform: scale(1.125);
+    transform: translateY(-10px);
   }
 }
 
 .circle p {
   color: white;
-  font-size: 36px;
+  font-size: 28px;
   font-family: "VeronaSerial-Xbold"
 }
 
@@ -113,9 +115,11 @@ a:hover {
   }
 
   main {
-    margin: 24px;
+    margin: 20px;
     background-color: white;
-    min-height: calc(100vh - 48px);
+    min-height: calc(100vh - 40px);
+    border: 10px solid #2F80ED;
+    outline: 10px solid #EB5757;
   }
 
   .intro {
@@ -142,4 +146,3 @@ a:hover {
   .main-content h3 {
     font-size: 14px;
   }
-}
