@@ -1,19 +1,23 @@
 @import url(webfonts.css);
 
+/* main styles */
+
 body {
   background-color: #F2C94C;
 }
 
 main {
-  margin: 40px;
+  margin: 10px;
   background-color: white;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 20px);
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 20px solid #2F80ED;
-  outline: 20px solid #EB5757;
+  border: 5px solid #2F80ED;
+  outline: 5px solid #EB5757;
 }
+
+/* typography */
 
 a {
   text-decoration: none;
@@ -30,21 +34,52 @@ a:visited {
 a:hover {
   color: black;
   border-bottom: 4px solid black;
-
 }
 
-.hello {
-  max-width: 720px;
-
+h2 {
+  font-family: "VeronaSerial-bold";
+  font-size: 24px;
+  padding-bottom: 24px;
+  transform: rotate(-8deg);
+  margin-bottom: 60px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 32px;
+.one h2 {
+  border-bottom: 5px solid #2F80ED;
 }
+
+.two h2 {
+  border-bottom: 5px solid #EB5757;
+}
+
+.three h2 {
+  border-bottom: 5px solid #F2C94C;
+}
+
+/* layout */
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: calc(100% - 30px);
+}
+
+.col {
+  padding: 40px;
+}
+
+.col.one {
+  border-right: 5px solid #2F80ED;
+}
+
+.col.two {
+  border-right: 5px solid #2F80ED;
+}
+
+/* content */
+
+/*circle + animation */
 
 .circle {
   justify-content: center;
@@ -76,50 +111,55 @@ a:hover {
 .circle p {
   color: white;
   font-size: 28px;
-  font-family: "VeronaSerial-Xbold"
+  font-family: "VeronaSerial-Xbold";
+  margin-bottom: 0px;
 }
 
-.hello h1 {
+
+.h1 {
   font-size: 64px;
   font-weight: 100;
   font-family: "VeronaSerial";
 }
 
-.hello h2 {
-  font-family: "VeronaSerial";
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 12px;
   font-size: 20px;
   line-height: 1.75;
-  margin-bottom: 12px;
-  font-weight: 500;
 }
 
-.hello h3 {
-  font-family: "VeronaSerial";
-  margin-top: 48px;
-  font-size: 16px;
-  line-height: 1.75;
-}
 
-@media(max-width:840px) {
-
-  .hello {
-    padding: 40px;
+@media screen and (max-width:840px) {
+  .container {
+    grid-template-columns: none;
+    height: auto;
   }
 
-  .intro h1 {
-    font-size: 54px;
+  .col.one {
+    border-right: none;
   }
+
+  .col.two {
+    border-right: none;
+  }
+
+  h2 {
+    transform: rotate(-4deg);
+  }
+
 
   .circle p {
     font-size: 20px;
   }
 
   main {
-    margin: 20px;
+    margin: 10px;
     background-color: white;
-    min-height: calc(100vh - 40px);
-    border: 10px solid #2F80ED;
-    outline: 10px solid #EB5757;
+    min-height: calc(100vh - 20px);
+    border: 5px solid #2F80ED;
+    outline: 5px solid #EB5757;
   }
 
   .intro {
@@ -131,18 +171,4 @@ a:hover {
     margin-bottom: 16px;
     width: 60px;
     height: 60px;
-  }
-
-
-  .hello h1 {
-    font-size: 24px;
-    font-family: "VeronaSerial-Bold";
-  }
-
-  .main-content h2 {
-    font-size: 16px;
-  }
-
-  .main-content h3 {
-    font-size: 14px;
   }
