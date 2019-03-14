@@ -1,23 +1,19 @@
 @import url(webfonts.css);
-
-/* main styles */
-
-body {
-  background-color: #F2C94C;
-}
-
-main {
-  margin: 10px;
-  background-color: white;
-  min-height: calc(100vh - 20px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid #2F80ED;
-  outline: 5px solid #EB5757;
-}
+@import url('https://rsms.me/inter/inter.css');
 
 /* typography */
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
 
 a {
   text-decoration: none;
@@ -39,47 +35,75 @@ a:hover {
 h2 {
   font-family: "VeronaSerial-bold";
   font-size: 24px;
-  padding-bottom: 24px;
-  transform: rotate(-8deg);
-  margin-bottom: 60px;
+  transform: rotate(-6deg);
+  margin-top: 40px;
+  margin-left: 40px;
+  width:fit-content;
 }
 
-.one h2 {
-  border-bottom: 5px solid #2F80ED;
+/* main styles */
+
+body {
+  background-color: #F2C94C;
 }
 
-.two h2 {
-  border-bottom: 5px solid #EB5757;
+main {
+  margin: 10px;
+  background-color: white;
+  min-height: calc(100vh - 20px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #2F80ED;
+  outline: 5px solid #EB5757;
 }
 
-.three h2 {
-  border-bottom: 5px solid #F2C94C;
+.col.one h2 {
+  padding-bottom:20px;
+  border-bottom:5px solid #2F80ED;
+}
+
+.col.two h2 {
+  padding-bottom:20px;
+  border-bottom:5px solid #EB5757;
+}
+
+.col.three h2 { 
+  padding-bottom:20px;
+  border-bottom:5px solid #F2C94C;
+}
+
+
+.goods {
+  margin-top: 112px;
+  padding: 0 64px;
 }
 
 /* layout */
 
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: calc(100% - 30px);
-}
-
 .col {
-  padding: 40px;
+  height: 100%;
 }
 
 .col.one {
   border-right: 5px solid #2F80ED;
+  background-image:url("assets/blue-dot.svg");
+  background-repeat:repeat;
 }
 
 .col.two {
   border-right: 5px solid #2F80ED;
+  background-image:url("assets/red-dot.svg");
+  background-repeat:repeat;
 }
 
-/* content */
+.col.three {
+  background-image:url("assets/yellow-dot.svg");
+  background-repeat:repeat;
+}
 
-/*circle + animation */
+/* circle + animation
 
 .circle {
   justify-content: center;
@@ -113,28 +137,30 @@ h2 {
   font-size: 28px;
   font-family: "VeronaSerial-Xbold";
   margin-bottom: 0px;
-}
+} */
 
-
+/* 
 .h1 {
   font-size: 64px;
   font-weight: 100;
   font-family: "VeronaSerial";
-}
-
-p {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 500;
-  margin-bottom: 12px;
-  font-size: 20px;
-  line-height: 1.75;
-}
+} */
 
 
 @media screen and (max-width:840px) {
-  .container {
-    grid-template-columns: none;
-    height: auto;
+
+  .col {
+    padding: 40px;
+  }
+
+  .col.header {
+    border: none;
+  }
+
+  .col h2 {
+    margin: 0px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #2F80ED;
   }
 
   .col.one {
@@ -155,6 +181,8 @@ p {
   }
 
   main {
+    grid-template-columns: none;
+    height: auto;
     margin: 10px;
     background-color: white;
     min-height: calc(100vh - 20px);
@@ -162,8 +190,8 @@ p {
     outline: 5px solid #EB5757;
   }
 
-  .intro {
-    flex-direction: column;
+  h2 {
+    width: auto;
   }
 
   .circle {
