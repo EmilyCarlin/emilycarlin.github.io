@@ -1,9 +1,10 @@
 @import url(webfonts.css);
+@import url('https://rsms.me/inter/inter.css');
 
 /* typography */
 
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   margin-bottom: 12px;
   font-size: 20px;
@@ -34,10 +35,10 @@ a:hover {
 h2 {
   font-family: "VeronaSerial-bold";
   font-size: 24px;
-  transform: rotate(-4deg);
-  width: fit-content;
+  transform: rotate(-6deg);
   margin-top: 40px;
   margin-left: 40px;
+  width:fit-content;
 }
 
 /* main styles */
@@ -58,15 +59,25 @@ main {
   outline: 5px solid #EB5757;
 }
 
-.col.header {
-  height: 60px;
-  border-bottom: 5px solid #2f80ed;
+.col.one h2 {
+  padding-bottom:20px;
+  border-bottom:5px solid #2F80ED;
+}
+
+.col.two h2 {
+  padding-bottom:20px;
+  border-bottom:5px solid #EB5757;
+}
+
+.col.three h2 { 
+  padding-bottom:20px;
+  border-bottom:5px solid #F2C94C;
 }
 
 
 .goods {
   margin-top: 112px;
-  padding: 0 24px;
+  padding: 0 64px;
 }
 
 /* layout */
@@ -77,12 +88,20 @@ main {
 
 .col.one {
   border-right: 5px solid #2F80ED;
+  background-image:url("assets/blue-dot.svg");
+  background-repeat:repeat;
 }
 
 .col.two {
   border-right: 5px solid #2F80ED;
+  background-image:url("assets/red-dot.svg");
+  background-repeat:repeat;
 }
 
+.col.three {
+  background-image:url("assets/yellow-dot.svg");
+  background-repeat:repeat;
+}
 
 /* circle + animation
 
