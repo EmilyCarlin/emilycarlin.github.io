@@ -1,24 +1,18 @@
 @import url(webfonts.css);
 
-/* main styles */
-
-body {
-  background-color: #F2C94C;
-}
-
-main {
-  margin: 10px;
-  background-color: white;
-  min-height: calc(100vh - 20px);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid #2F80ED;
-  outline: 5px solid #EB5757;
-}
-
 /* typography */
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
 
 a {
   text-decoration: none;
@@ -40,27 +34,44 @@ a:hover {
 h2 {
   font-family: "VeronaSerial-bold";
   font-size: 24px;
-  padding-bottom: 24px;
-  transform: rotate(-8deg);
-  margin-bottom: 60px;
+  transform: rotate(-4deg);
+  width: fit-content;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
-.one h2 {
-  border-bottom: 5px solid #2F80ED;
+/* main styles */
+
+body {
+  background-color: #F2C94C;
 }
 
-.two h2 {
-  border-bottom: 5px solid #EB5757;
+main {
+  margin: 10px;
+  background-color: white;
+  min-height: calc(100vh - 20px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #2F80ED;
+  outline: 5px solid #EB5757;
 }
 
-.three h2 {
-  border-bottom: 5px solid #F2C94C;
+.col.header {
+  height: 60px;
+  border-bottom: 5px solid #2f80ed;
+}
+
+
+.goods {
+  margin-top: 112px;
+  padding: 0 24px;
 }
 
 /* layout */
 
 .col {
-  padding: 40px;
   height: 100%;
 }
 
@@ -72,9 +83,8 @@ h2 {
   border-right: 5px solid #2F80ED;
 }
 
-/* content */
 
-/*circle + animation */
+/* circle + animation
 
 .circle {
   justify-content: center;
@@ -108,25 +118,32 @@ h2 {
   font-size: 28px;
   font-family: "VeronaSerial-Xbold";
   margin-bottom: 0px;
-}
+} */
 
-
+/* 
 .h1 {
   font-size: 64px;
   font-weight: 100;
   font-family: "VeronaSerial";
-}
-
-p {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 500;
-  margin-bottom: 12px;
-  font-size: 20px;
-  line-height: 1.75;
-}
+} */
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:840px) {
+
+  .col {
+    padding: 40px;
+  }
+
+  .col.header {
+    border: none;
+  }
+
+  .col h2 {
+    margin: 0px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #2F80ED;
+  }
+
   .col.one {
     border-right: none;
   }
@@ -154,8 +171,8 @@ p {
     outline: 5px solid #EB5757;
   }
 
-  .intro {
-    flex-direction: column;
+  h2 {
+    width: auto;
   }
 
   .circle {
