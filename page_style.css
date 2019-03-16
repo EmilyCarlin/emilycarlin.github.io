@@ -7,7 +7,19 @@ body {
     font-weight: 500;
     font-size: 18px;
     font-weight: 500;
+    line-height: 1.75;
 }
+
+h2 {
+    font-family: "VeronaSerial-bold";
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about {
+    background-color: #2F80ED;
+}
+
 
 main {
     margin: 10px;
@@ -24,7 +36,7 @@ header {
 
 a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     border-bottom: 2px solid black;
     margin-bottom: 4px;
@@ -39,4 +51,18 @@ a:hover {
 
 a:visited {
     color: black;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* about page styles */
+
+.hello {
+    margin-top: 64px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 120px;
 }
