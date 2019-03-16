@@ -17,9 +17,17 @@ footer p {
 
 .lil {
   font-size: 12px;
-  color: #333;
+  color: #4E4E4E;
   font-weight: 600;
   padding: 0 40px;
+}
+
+.lil a {
+  color: #4E4E4E;
+}
+
+.lil a:visited {
+  color: #4E4E4E;
 }
 
 a {
@@ -273,6 +281,10 @@ main {
   }
 
   .goods {
+    padding: 0px 16px;
+  }
+
+  .lil {
     padding: 0px 16px;
   }
 
