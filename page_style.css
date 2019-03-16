@@ -1,0 +1,42 @@
+@import url(webfonts.css);
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    background-color: #EB5757;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main {
+    margin: 10px;
+    background-color: white;
+    min-height: calc(100vh - 20px);
+
+}
+
+header {
+    height: 20px;
+    text-align: center;
+    padding: 64px 24px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border-bottom: 2px solid black;
+    margin-bottom: 4px;
+    transition: border-bottom 0.1s ease-in-out;
+    padding-bottom: 4px;
+}
+
+a:hover {
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+a:visited {
+    color: black;
+}
