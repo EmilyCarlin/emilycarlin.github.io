@@ -64,7 +64,7 @@ p {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 64px;
+    padding: 24px 24px 64px 24px;
 }
 
 .button {
@@ -105,3 +105,6 @@ p {
 h2 {
     text-align: center;
 }
+
+
+/* make it responsive */
