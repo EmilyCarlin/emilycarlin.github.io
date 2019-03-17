@@ -60,7 +60,7 @@ p {
 /* about page styles */
 
 .hello {
-    margin-top: 64px;
+    margin-top: 24px;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
@@ -101,10 +101,3 @@ p {
     margin-right: auto;
     margin-top: 64px;
 }
-
-h2 {
-    text-align: center;
-}
-
-
-/* make it responsive */
