@@ -289,10 +289,5 @@ main {
     width: auto;
   }
 
-  .circle {
-    margin-right: 0px;
-    margin-bottom: 16px;
-    width: 60px;
-    height: 60px;
-  }
+
 }

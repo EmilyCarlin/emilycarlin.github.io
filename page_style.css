@@ -10,10 +10,38 @@ body {
     line-height: 1.75;
 }
 
+p {
+    max-width: 720px;
+}
+
 h2 {
     font-family: "VeronaSerial-bold";
+    font-size: 36px;
+    letter-spacing: .5;
+}
+
+h3 {
+    font-family: "VeronaSerial-bold";
     font-size: 24px;
-    margin-bottom: 16px;
+    letter-spacing: .5;
+    padding-bottom: 24px;
+}
+
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #f9f9f9;
 }
 
 .about {
@@ -25,14 +53,33 @@ main {
     margin: 10px;
     background-color: white;
     min-height: calc(100vh - 20px);
+}
 
+.main-case-study {
+    margin: 0px
+}
+
+.header-wrapper {
+    background-color: #3923B7;
+    color: #fff;
 }
 
 header {
-    height: 20px;
     text-align: center;
-    padding: 64px 24px;
+    padding: 48px 24px;
+    background-color: #3923B7;
 }
+
+header a {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+header a:visited {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
 
 a {
     text-decoration: none;
@@ -95,9 +142,98 @@ p {
 
 /* Case study styles */
 
-.case-study {
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 64px;
+
+.case-study-header {
+    width: 100%;
+    padding: 24px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #3923B7;
+    color: #fff;
+}
+
+.case-study-header h2 {
+
+    font-size: 56px;
+    font-family: "VeronaSerial";
+    padding-bottom: 56px;
+}
+
+.header-text {
+    padding-top: 80px;
+}
+
+.case-study-header img {
+    max-width: 620px;
+    width: 100%;
+    height: auto;
+    padding-top: 64px;
+}
+
+.one-col-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 56px 80px;
+}
+
+.two-col-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 56px 80px 56px 80px;
+    align-items: center;
+}
+
+.col-one {
+    padding: 24px;
+}
+
+.col-two {
+    padding: 24px;
+}
+
+.col-two img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.gray {
+    background-color: #F5F7FA;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width:1200px) {
+
+    .case-study-header {
+        padding: 24px;
+        grid-template-columns: none;
+        height: auto;
+        justify-items: center;
+    }
+
+    .two-col-box {
+        grid-template-columns: none;
+        height: auto;
+        padding: 24px;
+    }
+
+    .case-study-header h2 {
+        font-size: 24px;
+        font-family: "VeronaSerial";
+        text-align: center;
+    }
+
+    .case-study-header h5 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
 }
