@@ -9,7 +9,7 @@
   <title>emily carlin - case study</title>
 </head>
 
-<body>
+<body class="installation">
   <main class="main-case-study">
     <header class="installation-header">
       <a href="index.html"> &#8592 Return to home page </a>
@@ -58,20 +58,22 @@
       <div class="col">
         <h3> understand the problem </h3>
         <p> I began by talking to people. How do the internal teams who work with customers every day think about
-          the problem? In sessions with customer success, support, sales, and marketing folks, I began to uncover
-          a map of the journey towards installation.</p>
-        <p> I also surveyed internal systems. I searched our support software and product feedback trackers for
-          anything related to "installation." I also watched <a href="https://www.fullstory.com/" target="_blank">FullStory</a>
-          sessions of folks using the existing installation tool.</p>
+          the problem? In sessions with customer success, support, sales, and marketing folks, I began to map out
+          the customer's journey to installation. </p>
+        <p> I also gathered and analyzed as much user data as I could find: I conducted exploratory user research,
+          searched our support software and
+          product feedback trackers for
+          anything installation related, and watched <a href="https://www.fullstory.com/" target="_blank">FullStory</a>
+          sessions of folks using the existing installation feature.</p>
       </div>
     </div>
     <div class="flex-grid">
       <div class="col one">
         <h3> refine the understanding </h3>
-        <p> After initial exploratory and generative research, I communicated my understanding of
-          the problem space to my teammates. For this project, which spans many different types of users and unfolds
-          over a variable length of time, journey maps and service blueprints ended up working well to build shared
-          understanding among the team.</p>
+        <p>Next, I documented what I learned in exploratory and generative research. For this project, which spans many
+          different types of users and unfolds
+          over a variable length of time, journey maps and service blueprints ended up working well; I shared them with
+          teammates to get feedback and build shared understanding.</p>
       </div>
       <div class="col">
         <img class="research-image" src="assets/Slack.png">
@@ -81,27 +83,95 @@
     <div class="flex-grid dark-gray">
       <div class="col one">
         <h3> competitive review </h3>
-        <p> How do similar products solve similar problems? Down with reinventing the wheel!</p>
+        <p> How do similar products solve similar problems? Down with reinventing the wheel! </p>
       </div>
       <div class="col">
         <img src="assets/inspiration.png">
       </div>
     </div>
-    <div class="flex-grid">
-      <div class="col one">
-        <img src="assets/wireframe.png">
+    <div class="block">
+      <div class="content">
+        <h3> sketching towards a solution </h3>
+        <p> Once I had a sense of the problem space, I started to map out re-imagined user flows and
+          sketch out rough examples of forms the interface could take. This is the part of the process I tend to spend
+          the most time on; taking time to think in a divergent and generative way pays major dividends
+          later in the project. </p>
+      </div>
+    </div>
+    <div class="flex-grid thirds gray">
+      <div class="col">
+        <img src="assets/sketch-1.png">
+        <p class="caption"> 01. Flow / diagrammatic brainstorming</p>
       </div>
       <div class="col">
-        <h3> sketching towards a solution </h3>
-        <p> Quick + divergent concepts.</p>
+        <img src="assets/sketch-2.png">
+        <p class="caption"> 02. Good ol' pen and paper</p>
+      </div>
+      <div class="col">
+        <img src="assets/sketch-3.png">
+        <p class="caption"> 03. Low fidelity interface explorations</p>
+      </div>
+    </div>
+    <div class="flex-grid dark-gray">
+      <div class="col">
+        <h3> testing concepts </h3>
+        <p> At this point, it was time to evaluate our most promising concepts with users. We conducted a few rounds of
+          testing; each session getting us closer to a solution that really solved the problem. </p>
+      </div>
+      <div class="col">
+        <img src="assets/script.png">
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col center">
+        <img src="assets/hover.gif">
+        <p class="caption"> It's all about the details: We added a persistent link in the nav bar to increase
+          awareness of installation status + ease of accessing guide.</p>
+      </div>
+      <div class="col">
+        <h3> converging </h3>
+        <p> After many rounds of iteration + testing, we eventually decided on a direction that seemed reasonably
+          simple for our team to build and for our customers to use. We created a path for our non-technical users to
+          understand their role in getting Appcues installed, and also created a step-by-step guide that speaks to
+          developers in terms they're used to, and provides rationale for each step in the process. </p>
       </div>
     </div>
     <div class="flex-grid gray">
       <div class="col">
-        <h3> testing concepts </h3>
-        <p> </p>
+        <h3> visual consistency + refinements</h3>
+        <p> The iteration was not over yet (is it ever, really?) -- once we decided on a direction, it was time to
+          hammer out all of the visual and interaction details. This was made much easier by our team's design system;
+          which exists in Figma and in React. </p>
+      </div>
+      <div class="col">
+        <img src="assets/design-system.png">
+        <p class="caption"> Our design system in Figma is created and maintained by our three-person strong design
+          team.</p>
       </div>
     </div>
+    <div class="flex-grid">
+      <div class="col">
+        <h3> ship it! </h3>
+        <p> Once we had a working experience that we felt was good enough to get into the wild and start learning from,
+          we released it. </p>
+      </div>
+      <div class="col">
+        <img src="assets/the_guide.gif">
+      </div>
+    </div>
+    <div class="block dark-gray">
+      <div class="content">
+        <h3> what's next (or, never stop learning)</h3>
+        <p> Early indicators look good: anecdotal evidence from internal teams and customer conversations suggest the
+          streamlined installation experience makes it easier to get installed quickly + successfully.</p>
+        <p>During the earlier stages of the project, we defined a set of success metrics and added the necessary
+          product instrumentation to track progress over time. This will help us continue to
+          enhance the experience + make the complex process of installation as simple and pleasant as possible. </p>
+      </div>
+    </div>
+    <footer class="installation-footer">
+      <a href="index.html"> &#8592 Return to home page </a>
+    </footer>
   </main>
 </body>
 

@@ -152,6 +152,10 @@ img {
     width: 48%;
 }
 
+.thirds .col {
+    width: 32%;
+}
+
 
 .block {
     display: flex;
@@ -186,6 +190,39 @@ img {
     color: white;
     border-bottom: 4px solid white;
 }
+
+.installation-footer {
+    text-align: center;
+    padding: 48px 24px;
+    background-color: #3923b7;
+    border-bottom: none;
+}
+
+.installation-footer a {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.installation-footer a:hover {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.installation-footer a:visited {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.caption {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
 
 /* subscription styles */
 .subscription {
@@ -232,6 +269,10 @@ img {
 @media screen and (max-width:1200px) {
     .flex-grid {
         display: block;
+    }
+
+    .thirds .col {
+        width: 100%;
     }
 
     .col {
