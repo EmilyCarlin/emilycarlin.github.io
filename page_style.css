@@ -2,258 +2,271 @@
 @import url("https://rsms.me/inter/inter.css");
 
 body {
-  background-color: #eb5757;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.75;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.75;
+    color: #333;
 }
 
 p {
-  max-width: 720px;
+    max-width: 720px;
 }
 
 h2 {
-  font-family: "VeronaSerial-bold";
-  font-size: 36px;
-  letter-spacing: 0.5;
+    font-family: "VeronaSerial-bold";
+    font-size: 36px;
+    letter-spacing: 0.5;
 }
 
 h3 {
-  font-family: "VeronaSerial-bold";
-  font-size: 24px;
-  letter-spacing: 0.5;
-  padding-bottom: 24px;
+    font-family: "VeronaSerial-bold";
+    font-size: 24px;
+    letter-spacing: 0.5;
+    padding-bottom: 24px;
 }
 
 h4 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  padding-bottom: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
 }
 
 h5 {
-  text-transform: uppercase;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  color: #f9f9f9;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #f9f9f9;
+    padding-top: 24px;
 }
 
-.about {
-  background-color: #2f80ed;
-}
 
 main {
-  margin: 10px;
-  background-color: white;
-  min-height: calc(100vh - 20px);
+    margin: 10px;
+    background-color: white;
+    min-height: calc(100vh - 20px);
 }
 
 .main-case-study {
-  margin: 0px;
+    margin: 0px;
+    min-height: calc(100vh);
 }
 
-.header-wrapper {
-  background-color: #3923b7;
-  color: #fff;
-}
-
-header {
-  text-align: center;
-  padding: 48px 24px;
-  background-color: #3923b7;
-}
-
-header a {
-  color: white;
-  border-bottom: 2px solid white;
-}
-
-header a:visited {
-  color: white;
-  border-bottom: 4px solid white;
-}
 
 a {
-  text-decoration: none;
-  font-weight: 500;
-  color: black;
-  border-bottom: 2px solid black;
-  margin-bottom: 4px;
-  transition: border-bottom 0.1s ease-in-out;
-  padding-bottom: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 2px solid #333;
+    margin-bottom: 4px;
+    transition: border-bottom 0.1s ease-in-out;
+    padding-bottom: 4px;
 }
 
 a:hover {
-  color: black;
-  border-bottom: 4px solid black;
+    color: #333;
+    border-bottom: 4px solid #333;
 }
 
 a:visited {
-  color: black;
+    color: #333;
 }
 
 p {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 /* about page styles */
 
+.about {
+    background-color: #2f80ed;
+}
+
+header {
+    text-align: center;
+    padding: 24px 24px;
+    border-bottom: 10px solid #2F80ED;
+    color: #333;
+}
+
+.about-me {
+    padding-bottom: 24px;
+}
+
+
 .hello {
-  margin-top: 24px;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px 24px 64px 24px;
+    margin-top: 24px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 24px 64px 24px;
 }
 
 .button {
-  display: inline-block;
-  padding: 1em 1.2em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: black;
-  text-align: center;
-  transition: all 0.2s;
-  background-color: #fff;
-  border: 5px solid #2f80ed;
-  margin-top: 24px;
-  margin-right: 40px;
-  transform: rotate(0deg);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    padding: 1em 1.2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #fff;
+    border: 5px solid #2f80ed;
+    margin-top: 24px;
+    margin-right: 40px;
+    transform: rotate(0deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 .button:hover {
-  border: 5px solid #2f80ed;
-  transform: rotate(-4deg);
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
-    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    border: 5px solid #2f80ed;
+    transform: rotate(-4deg);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+        0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Case study styles */
 
-.case-study-header {
-  width: 100%;
-  padding: 24px 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #3923b7;
-  color: #fff;
+img {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
 }
 
-.case-study-header h2 {
-  font-size: 56px;
-  font-family: "VeronaSerial";
-  padding-bottom: 56px;
+.flex-grid {
+    display: flex;
+    padding: 80px 80px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header-text {
-  padding-top: 80px;
+.flex-grid.header {
+    padding: 80px 0px 0px 80px;
 }
 
-.case-study-header img {
-  max-width: 620px;
-  width: 100%;
-  height: auto;
-  padding-top: 64px;
+.col {
+    width: 48%;
 }
 
-.one-col-box {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-  padding: 56px 80px;
+
+.block {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
 }
 
-.two-col-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 56px 80px 56px 80px;
-  align-items: center;
+/* Installation specific styles */
+
+.installation {
+    background-color: #3923b7;
 }
 
-.col-one {
-  padding: 24px;
+.installation-header {
+    text-align: center;
+    padding: 48px 24px;
+    background-color: #3923b7;
+    border-bottom: none;
 }
 
-.col-two {
-  padding: 24px;
+.installation-header a {
+    color: white;
+    border-bottom: 2px solid white;
 }
 
-.col-two img {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.installation-header a:hover {
+    color: white;
+    border-bottom: 4px solid white;
 }
 
-.col-one img {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.installation-header a:visited {
+    color: white;
+    border-bottom: 4px solid white;
 }
+
+/* subscription styles */
+.subscription {
+    background-color: red;
+}
+
+
+
+/* colors for sections */
 
 .gray {
-  background-color: #f5f7fa;
+    background-color: #f5f7fa;
 }
 
-.space-above {
-    padding-top:24px;
+.purple {
+    background-color: #3923b7;
+    color: #fff;
 }
 
-/* Responsive Styles */
-
-@media screen and (max-width: 1200px) {
-  .case-study-header {
-    padding: 24px;
-    grid-template-columns: none;
-    height: auto;
-    justify-items: center;
-  }
-
-  .two-col-box {
-    grid-template-columns: none;
-    height: auto;
-    padding: 24px;
-  }
-
-  .case-study-header h2 {
-    font-size: 24px;
-    font-family: "VeronaSerial";
-    text-align: center;
-  }
-
-  .case-study-header h5 {
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 18px;
-    margin-bottom: 24px;
-  }
+.dark-gray {
+    background-color: #242A35;
+    color: #fff;
 }
 
+.dark-gray a {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    transition: border-bottom 0.1s ease-in-out;
+}
 
-@media screen and (min-width: 1700px) {
-    .case-study-header {
-      padding: 48px 320px;
-      height: auto;
-      justify-items: center;
-    }
-  
-    .two-col-box {
+.dark-gray a:hover {
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
 
-      height: auto;
-      padding: 48px 320px;
+.research-image {
+    margin-bottom: 48px;
+}
+
+/* responsive styles */
+
+
+
+@media screen and (max-width:1200px) {
+    .flex-grid {
+        display: block;
     }
 
-    .-col-box {
-        height: auto;
-        padding: 48px 320px;
-      }
+    .col {
+        width: 100%;
+    }
+
+    .flex-grid.header {
+        padding: 80px;
+    }
+
+    .flex-grid {
+        padding: 80px;
+    }
+
+    .block {
+        padding: 80px;
+    }
+
+    .one {
+        padding-bottom: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .flex-grid.header {
+        padding: 18px;
+    }
+
+    .flex-grid {
+        padding: 18px;
+    }
+
+    .block {
+        padding: 18px;
+    }
+}

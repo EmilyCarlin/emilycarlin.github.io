@@ -9,6 +9,7 @@ p {
   margin-bottom: 12px;
   font-size: 18px;
   line-height: 1.75;
+  color: #333;
 }
 
 footer p {
@@ -33,19 +34,19 @@ footer p {
 a {
   text-decoration: none;
   font-weight: 600;
-  color: black;
-  border-bottom: 2px solid black;
+  color: #333;
+  border-bottom: 2px solid #333;
   margin-bottom: 4px;
   transition: all 0.1s ease-in-out;
 }
 
 a:visited {
-  color: black;
+  color: #333;
 }
 
 a:hover {
-  color: black;
-  border-bottom: 4px solid black;
+  color: #333;
+  border-bottom: 4px solid #333;
 }
 
 h2 {
@@ -56,6 +57,7 @@ h2 {
   margin-left: 40px;
   width: fit-content;
   max-width: 240px;
+  color: #333;
 }
 
 h3 {
@@ -136,7 +138,7 @@ main {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  color: black;
+  color: #333;
   text-align: center;
   transition: all 0.2s;
   background-color: #fff;
