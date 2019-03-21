@@ -222,14 +222,14 @@ img {
 .header-content img {
     width: 45%;
     box-shadow: none;
-    transform: scale(.9);
+    transform: scale(1);
     transition: all 0.3s ease-in-out;
 }
 
 .header-content img:hover {
     width: 45%;
     box-shadow: none;
-    transform: scale(.95);
+    transform: scale(1.05);
 }
 
 .caption {
@@ -287,6 +287,15 @@ img {
 
 
 @media screen and (max-width:1200px) {
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        padding-top: 24px;
+    }
+
     .flex-grid {
         display: block;
     }
@@ -295,7 +304,11 @@ img {
         width: 100%;
     }
 
-    .col {
+    .col-txt {
+        width: 100%;
+    }
+
+    .col-img {
         width: 100%;
     }
 
@@ -314,17 +327,26 @@ img {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+
+    .header-content img {
+        width: 100%;
+        transform: scale(1);
+    }
+
+    .header-content img:hover {
+        width: 100%;
+    }
 
     .flex-grid.header {
-        padding: 18px;
+        padding: 24px;
     }
 
     .flex-grid {
-        padding: 18px;
+        padding: 24px;
     }
 
     .block {
-        padding: 18px;
+        padding: 24px;
     }
 }
