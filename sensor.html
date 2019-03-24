@@ -1,0 +1,146 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="base.css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="page_style.css">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+  <title>emily carlin - case study</title>
+</head>
+
+<body class="sensor">
+  <main class="main-case-study">
+    <header>
+      <a href="index.html"> &#8592 Return to home page </a>
+    </header>
+    <section class="sensor-intro">
+      <section class="sensor-content">
+        <div class="sensor-title">
+          <h2> displaying sump pump data </h2>
+        </div>
+        <div class="sensor-image">
+          <img src="assets/sensor.gif">
+        </div>
+      </section>
+    </section>
+    <section class="sensor-block dark">
+      <section class="sensor-block-content">
+        <h3> background </h3>
+        <p> Sump pumps are unglamorous but critical devices that prevent basements from flooding. Since they are
+          electrical/mechanical devices, they can fail. </p>
+        <p>Boulder Automation's SumpSense is an integrated hardware/software solution that
+          alerts users of any issues with their sump pump. It's like a <a class="light" href="https://nest.com/smoke-co-alarm/overview/"
+            target="_blank"> Nest smoke alarm</a>, but instead of smoke
+          it detects sump pump failures. I am designing the SumpSense mobile application
+          (currently
+          in iOS private beta).</p>
+      </section>
+    </section>
+    <section class="sensor-block gray">
+      <section class="sensor-content">
+        <section class="two-col-1">
+          <h3> my role </h3>
+          <p> In addition to designing the mobile application that accompanies the sump pump sensor, I've also been a
+            bit of a deisgn jack of all trades on the project; from designing the logo and brand to creating pitch
+            decks.</p>
+        </section>
+        <section class="two-col-2">
+          <img src="assets/slide-deck.png">
+        </section>
+      </section>
+    </section>
+
+    <section class="sensor-block ">
+      <section class="sensor-block-content">
+        <h3> how it works </h3>
+        <img class="no-shadow" src="assets/technical-drawing.png">
+        <p class="padding-above">The SumpSense wall unit receives data from the from the anchor and hose installed in
+          the sump pump. It sends that data to the mobile application via WiFi. </p>
+      </section>
+    </section>
+    <section class="sensor-block dark">
+      <section class="sensor-block-content">
+        <h3> mapping out a minimum viable product </h3>
+        <p> The app + accompanying hardware is under active development; we're focused on a minimum viable product that
+          we can get in front of beta users to begin testing + iterating. My first step was to work with my teammates
+          to map out the minimum set
+          actions the app needs to support.</p>
+      </section>
+    </section>
+    <section class="sensor-block no-padding gray">
+      <section class="sensor-content">
+        <section class="two-col-1">
+          <h3> mobile app actions </h3>
+          <p class="num-line">1. Initial setup </p>
+          <p>Pairing the sensor device with the app over Wifi </p>
+          <p class="num-line">2. Configure notification preferences</p>
+          <p> Ideally, SumpSense is a "set it and forget it" experience. Sometimes the <a href="http://www.nointerface.com/book/"
+              target="_blank">best interface is no interface.</a></p>
+          <p class="num-line">3. Display data</p>
+          <p> For users who are curious about what's going on with their
+            sump pump, the app displays a simple data roll-up. </p>
+        </section>
+        <section class="two-col-2">
+          <img class="no-shadow" src="assets/hand-on-white.png">
+        </section>
+      </section>
+    </section>
+    <section class="sensor-block">
+      <section class="sensor-block-content">
+        <h3> sketching architecture </h3>
+        <p> Once the team was aligned on the core user needs that the application would meet, I mapped out a simple
+          system architecture of each unique screen in the application. </p>
+        <p> We tried to keep it as simple as possible; still working under the hypothesis that if all goes according to
+          plan, once a user has paired their unit and configured their notifications, this app should really just
+          collect dust in a folder on someone's phone.</p>
+        <img class="padding-above" src="assets/architecture.jpg">
+      </section>
+    </section>
+
+    <section class="sensor-block dark">
+      <section class="sensor-block-content">
+        <h3> defining core flows </h3>
+        <p> Once we confirmed the main actions the app should support with a few homeowners who met our ideal
+          customer profile and the team agreed on a high-level architecture, I moved on to wireframes of the core
+          application flows. Shown below (in all
+          the messy glory
+          of my actual Figma canvas) are the flows for pairing the SumpSense hardware with the mobile application. </p>
+      </section>
+    </section>
+    <section class="full-width">
+      <img class="no-shadow" src="assets/figma.gif">
+    </section>
+    <section class="sensor-block ">
+      <section class="sensor-content">
+        <section class="two-col-1">
+          <h3> what's next? iterate, iterate </h3>
+          <p> Before I joined the team, the first version of the application was written as a proof-of-concept in
+            Objective C. The team is now re-writing the application in React Native. Once
+            that initiative
+            is
+            complete, we will give test units to a set of beta testers and begin the fun part: seeing how the system
+            actually works in the wild. </p>
+        </section>
+        <section class="two-col-2 basement">
+          <img class="basement-pic" src="assets/testing-in-basement.JPG">
+          <p class="caption"> Testing the entire system</p>
+        </section>
+      </section>
+    </section>
+    <section class="sensor-block dark">
+      <section class="sensor-block-content">
+        <h3> functional prototype </h3>
+        <p> A functional prototype of the entire flow is available upon request. Shoot a note to emily at carlin.com to
+          check it
+          out!
+        </p>
+      </section>
+    </section>
+    <footer>
+      <a class="light" href="index.html"> &#8592 Return to home page </a>
+    </footer>
+  </main>
+</body>
+
+</html>

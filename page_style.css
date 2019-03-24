@@ -47,6 +47,8 @@ main {
     min-height: calc(100vh);
 }
 
+/* link styles */
+
 
 a {
     text-decoration: none;
@@ -67,6 +69,21 @@ a:visited {
     color: #333;
 }
 
+.light {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.light:hover {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.light:visited {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
 p {
     margin-bottom: 16px;
 }
@@ -84,18 +101,58 @@ header {
     color: #333;
 }
 
-.about-me {
-    padding-bottom: 24px;
+.area.one {
+    padding: 48px;
+    border-bottom: 10px solid #2f80ed;
+    background-image: url("assets/smiles.svg");
+    background-repeat: repeat;
 }
 
+.area.two {
+    padding: 48px;
+    border-bottom: 10px solid #2f80ed;
 
-.hello {
-    margin-top: 24px;
-    max-width: 640px;
+}
+
+.area.three {
+    padding: 48px;
+    background-image: url("assets/graph-paper.svg");
+    background-repeat: repeat;
+}
+
+.area-content {
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px 24px 64px 24px;
 }
+
+.hello img {
+    border: 10px solid #2F80ED;
+    max-width: 300px;
+    transform: rotate(0deg);
+    transition: all 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.hello img:hover {
+    border: 10px solid #2F80ED;
+    max-width: 300px;
+    text-align: Center;
+    transform: rotate(-6deg) scale(1.1);
+}
+
+.about-me {
+    font-size: 24px;
+    transform: rotate(-6deg);
+    width: fit-content;
+    border-bottom: 5px solid #2F80ED;
+    padding-bottom: 20px;
+    margin-bottom: 48px;
+
+}
+
+
+
 
 .button {
     display: inline-block;
@@ -109,7 +166,6 @@ header {
     transition: all 0.2s;
     background-color: #fff;
     border: 5px solid #2f80ed;
-    margin-top: 24px;
     margin-right: 40px;
     transform: rotate(0deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
@@ -174,41 +230,12 @@ img {
     border-bottom: none;
 }
 
-.installation-header a {
-    color: white;
-    border-bottom: 2px solid white;
-}
-
-.installation-header a:hover {
-    color: white;
-    border-bottom: 4px solid white;
-}
-
-.installation-header a:visited {
-    color: white;
-    border-bottom: 4px solid white;
-}
 
 .installation-footer {
     text-align: center;
     padding: 48px 24px;
     background-color: #3923b7;
     border-bottom: none;
-}
-
-.installation-footer a {
-    color: white;
-    border-bottom: 2px solid white;
-}
-
-.installation-footer a:hover {
-    color: white;
-    border-bottom: 4px solid white;
-}
-
-.installation-footer a:visited {
-    color: white;
-    border-bottom: 4px solid white;
 }
 
 .header-content {
@@ -247,9 +274,154 @@ img {
 }
 
 
-/* subscription styles */
-.subscription {
-    background-color: red;
+/* sensor styles */
+.sensor {
+    background-color: #fff;
+}
+
+.sensor header {
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    padding: 48px 24px;
+}
+
+.sensor header a {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.sensor header a:hover {
+    color: #333;
+    border-bottom: 4px solid #333;
+}
+
+.sensor header a:visited {
+    color: #333;
+    border-bottom: 4px solid #333;
+}
+
+.sensor-intro {
+    background-color: #fff;
+    color: #333;
+
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.sensor-content {
+    max-width: 960px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.sensor-block {
+    padding: 80px 40px;
+}
+
+.sensor-block-content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sensor-block-content h2 {
+    margin-bottom: 48px;
+}
+
+.sensor-block-content p {
+    max-width: none;
+}
+
+.padding-above {
+    padding-top: 40px;
+}
+
+.three-col-1 {
+    padding: 40px 0px;
+    width: 32%
+}
+
+.three-col-2 {
+    padding: 40px 0px;
+    width: 32%;
+    text-align: center;
+}
+
+
+.three-col-3 {
+    padding: 40px 0px;
+    width: 32%;
+    text-align: center;
+
+}
+
+.two-col-1 {
+    width: 48%;
+    padding: 0px 24px 0px 0px;
+}
+
+.two-col-2 {
+    width: 48%;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+
+.sensor-title {
+    width: 38%;
+    text-align: center;
+}
+
+.sensor-image {
+    width: 58%;
+}
+
+.sensor-image img {
+    box-shadow: none;
+}
+
+.num-line {
+    font-weight: 700;
+}
+
+.no-padding {
+    padding-bottom: 0px;
+}
+
+.full-width {
+    background-color: #333;
+}
+
+.basement-pic {
+    max-width: 320px;
+}
+
+.basement {
+    padding-left: 24px;
+    text-align: Center;
+}
+
+.sensor footer {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+
+.sensor footer {
+    text-align: center;
+    padding: 48px 24px;
+    background-color: #333;
+    border-bottom: none;
 }
 
 
