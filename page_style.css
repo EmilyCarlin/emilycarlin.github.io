@@ -517,6 +517,10 @@
      border-bottom: 4px solid #fff;
  }
 
+ .full-width {
+     background-color: #fff;
+ }
+
 
  /* responsive styles */
 
@@ -569,7 +573,7 @@
      }
 
      .sensor-content img {
-         max-width: 70%;
+         max-width: 80%;
      }
 
      .two-col-1 {
@@ -577,10 +581,22 @@
          padding: 0px 24px 0px 0px;
      }
 
+     .two-col-1-img {
+         text-align: center;
+     }
+
      .two-col-2 {
          width: 100%;
          text-align: center;
          padding-top: 40px;
+     }
+
+     .two-col-1-longer {
+         width: 100%;
+     }
+
+     .two-col-2-shorter {
+         width: 100%;
      }
 
      .sensor-title {
@@ -599,7 +615,9 @@
          padding-top: 80px;
      }
 
-
+     .data-image img {
+         max-width: 90%;
+     }
 
  }
 
@@ -648,6 +666,10 @@
 
      .sensor-block {
          padding: 40px 24px;
+     }
+
+     .no-padding {
+         padding-bottom: 0px;
      }
 
      .basement {
