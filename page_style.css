@@ -360,6 +360,11 @@
      padding: 0px 24px 0px 0px;
  }
 
+ .two-col-1-img {
+     width: 48%;
+     padding: 0px 24px 0px 0px;
+ }
+
  .two-col-1-longer {
      width: 58%;
      padding: 0px 40px 0px 0px;
@@ -580,6 +585,8 @@
          width: 100%;
          padding: 0px 24px 0px 0px;
      }
+
+
 
      .two-col-1-img {
          text-align: center;
