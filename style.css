@@ -1,4 +1,4 @@
-@import url(webfonts.css);
+@import url('https://fonts.googleapis.com/css?family=Domine');
 @import url('https://rsms.me/inter/inter.css');
 
 /* typography */
@@ -50,7 +50,9 @@ a:hover {
 }
 
 h2 {
-  font-family: "VeronaSerial-bold";
+  font-family: 'Domine', serif;
+  letter-spacing: 1;
+  font-weight: 700;
   font-size: 24px;
   transform: rotate(-6deg);
   margin-top: 40px;
@@ -60,13 +62,6 @@ h2 {
   color: #333;
 }
 
-h3 {
-  font-family: "VeronaSerial-bold";
-  font-size: 18px;
-  width: fit-content;
-  margin-bottom: 24px;
-  padding-bottom: 10px;
-}
 
 .goods.two a {
   text-decoration: none;
