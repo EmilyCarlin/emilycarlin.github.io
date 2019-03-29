@@ -174,7 +174,6 @@ main {
   transition: all ease-in-out 0.2s;
   padding: 20px;
   border: 5px solid #EB5757;
-  min-height: 80px;
 }
 
 .card:hover {
