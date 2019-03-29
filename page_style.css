@@ -20,6 +20,9 @@ h2 {
     letter-spacing: 1.5;
     line-height: 1.3;
     font-weight: 700;
+    width: intrinsic;
+    width: -moz-max-content;
+    width: -webkit-max-content;
 
 }
 
@@ -144,7 +147,6 @@ header {
 .about-me {
     font-size: 24px;
     transform: rotate(-6deg);
-    width: fit-content;
     border-bottom: 5px solid #2f80ed;
     padding-bottom: 20px;
     margin-bottom: 48px;
