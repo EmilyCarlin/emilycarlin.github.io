@@ -140,7 +140,9 @@ header {
 .hello img:hover {
     border: 10px solid #2f80ed;
     max-width: 420px;
-    text-align: Center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     transform: rotate(-6deg) scale(1.1);
 }
 
@@ -226,6 +228,11 @@ img {
     padding: 48px 24px;
     background-color: #3923b7;
     border-bottom: none;
+}
+
+.header-content h2 {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .installation-footer {
@@ -381,6 +388,11 @@ img {
     text-align: center;
 }
 
+.sensor-title h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sensor-image {
     width: 58%;
 }
@@ -448,6 +460,11 @@ img {
 .data-title {
     text-align: center;
     padding: 40px;
+}
+
+.data-title h2 {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .data-image {
