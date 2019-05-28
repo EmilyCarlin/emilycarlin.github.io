@@ -536,6 +536,7 @@ img {
 @media screen and (max-width: 1200px) {
   h2 {
     font-size: 24px;
+    line-height: 1.5;
   }
 
   h3 {
@@ -656,7 +657,6 @@ img {
   .header-content img:hover {
     width: 100%;
   }
-
   .flex-grid.header {
     padding: 24px;
   }
